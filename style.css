@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.navbar{
+    background-color: black;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.nav_left{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0px 30px;
+    
+}
+.nav_left > img{
+    width: 50px;
+}
+.i{
+    background-color: rgba(58, 51, 51, 0.716);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    /* align-items: center; */
+    padding: 12px;
+}
+ .i > i{
+    color: white;
+    align-items: center;
+    background-color: rgba(58, 51, 51, 0.716);
+    font-size: 1.3rem;
+
+ }
+.nav_center{
+    /* border: 2px solid red;s */
+    width: 100%;
+    background-color: rgba(58, 51, 51, 0.716);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+    align-items: center;
+    padding: 13px;
+    
+}
+.nav_center > .search{
+    background-color: transparent;
+    color: white;
+    font-size: 1.4rem;
+    /* font-weight: 200; */
+}
+.nav_center > input{
+    /* text-decoration: none; */
+    background-color: transparent;
+    width: 86%;
+    border: none;
+    outline: none;
+    color: white;
+}
+.nav_center > .file{
+    color: white;
+    font-size: 1.4rem;
+    border-left: 1px solid white;
+    padding: 10px;
+    background-color: transparent;
+}
+
+
+
+.nav_right{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  
+}
+.signup{
+    background-color:transparent;
+    color: white;
+    width: 100px;
+    border: none;
+    font-size: 1rem;
+
+}
+.login{
+    background-color: white;
+    color: black;
+    width: 100px;
+    border-radius: 20px;
+    font-size: 1rem;
+
+}
