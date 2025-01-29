@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    height: 60px;
+    display: flex;
+  
+}
+.i{
+        color: white;
+        font-size: 2rem;
+        margin: 10px;
+        margin-left: 20px;
+}
+.select{
+    font-size: 1rem;
+    margin-top: 15px;
+    width: 900px;
+}
+.select select{
+    background-color: black;
+    color: white;
+    padding: 4px;
+}
+.search{
+    width: 270px;
+    margin-left: -10px;
+    border: none;
+    color: black;
+    background-color:  #0f1111;
+}
+.icon{
+    color:white;
+    background-color: #0f1111;
+    margin: 10px;
+    border: 0.5px solid white;
+}
+.ic{
+    margin: 10px;
+}
+.sign-in{
+    color: white;
+    font-size: 15px;
+    margin-left:40px;
+    margin-top:20px ;
+}
+.sign-up{
+    color: white;
+    font-size: 0.95rem;
+    margin-left:30px;
+    margin-top:15px ;
+    margin-bottom: 15px;
+    border: 0.5px solid white;
+    padding: 5px;
+}
+
+/*  img section  */
+
+
+.img{
+    background-color: rgb(41, 2, 77);
+    height: 1000px;
+    display:;
+    background-image: url('download.png');
+    margin-top: -100px;
+}
+h1{
+    margin-top: 350px;
+    margin-left: 300px;
+    font-size: 70px;
+    position: absolute;
+    color: white;
+}
+.para p{
+    color: white;
+    font-size: 1.2rem;
+    margin-left: 90px;
+    margin-top: 50px;
+}
